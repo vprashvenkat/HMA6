@@ -32,6 +32,7 @@ public class SignUp extends Activity {
                 Intent main_intent = new Intent(SignUp.this, WHR.class);
                 //main_intent.putExtra("NAME", fname_s);
                 startActivity(main_intent);
+                //todo
             }
         });
     }
